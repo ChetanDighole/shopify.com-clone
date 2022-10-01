@@ -6,7 +6,7 @@ Made a [shopify](https://www.shopify.com/in) clone using [Tailwindcss](https://t
 ***
 ## Tech Stack
 
-**Client:** HTML![html Img](/Images/html.png), Tailwindcss![tailwind img](/Images/tailwind.png)
+**Client:** HTML![html Img](/images/html.png), Tailwindcss![tailwind img](/images/tailwind.png)
 
 ***
 
@@ -18,6 +18,8 @@ Made a [shopify](https://www.shopify.com/in) clone using [Tailwindcss](https://t
 - Hover Effect
 - SVG placement
 - Responsive website
+***
+***[Deployed Link](https://shopify-clone-by-chetan-dighole.netlify.app/)***
 ***
 ## Feedback
 
