@@ -31,6 +31,9 @@
 
   <!-- header -->
   <header>
+
+    <marquee class="text-red-600">Disclaimer: This is a clone project, developed to enhance my understanding of
+      Tailwind CSS.</marquee>
     <!-- full screen -->
     <nav class="hidden lg:flex flrex-row justify-between items-center px-[5%] py-[12px] bg-lemonClr">
       <!-- left -->
@@ -261,23 +264,16 @@
               type="video/mp4"
               src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4">
           </video> -->
-          <!-- <div class="mr-0 md:-mr-[30px] max-w-[1000px]"> -->
-            <div class="lg:w-1/2">
-            <video
-              class="w-[100%]"
-              autoplay="true"
-              loop="true"
-              playsinline="playsinline"
-              plays
-              muted
-            >
-              <source src="/images/video-shopify.webm" type="video/webm" />
-              <source src="/images/video-shopify.mp4" type="video/mp4" />
-              sorry, videos format not supported in your browser, switch to
-              different browser.
-            </video>
-          </div>
-        
+        <!-- <div class="mr-0 md:-mr-[30px] max-w-[1000px]"> -->
+        <div class="lg:w-1/2">
+          <video class="w-[100%]" autoplay="true" loop="true" playsinline="playsinline" plays muted>
+            <source src="/images/video-shopify.webm" type="video/webm" />
+            <source src="/images/video-shopify.mp4" type="video/mp4" />
+            sorry, videos format not supported in your browser, switch to
+            different browser.
+          </video>
+        </div>
+
 
 
         <div class="lg:w-1/2 flex flex-col justify-between gap-y-[18px] items-start">
@@ -307,7 +303,7 @@
             data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-large-213dc76dc5482456e02e34465bab786df62a6c07de2c9fcd4937a7b52813b56d.jpg?quality=50 2x"
             class=" lazyloaded" sizes="100vw"
             srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-large-213dc76dc5482456e02e34465bab786df62a6c07de2c9fcd4937a7b52813b56d.jpg?quality=50 2x"> -->
-            <img src="/images/market-your-business.jpg" alt="">
+          <img src="/images/market-your-business.jpg" alt="">
         </div>
       </div>
 
@@ -513,7 +509,8 @@
         <h3 class="text-base font-bold cursor-pointer text-white">Sitemap</h3>
       </div>
 
-      <div class="flex flex-row text-gray-400 justify-between py-[1%] px-[5%] items-start flex-wrap border-b-[1px] border-gray-400">
+      <div
+        class="flex flex-row text-gray-400 justify-between py-[1%] px-[5%] items-start flex-wrap border-b-[1px] border-gray-400">
         <!-- middle -->
         <div>
           <h3 class="text-sm text-white font-semibold">ONLINE STORE</h3>
@@ -597,7 +594,7 @@
 
 
   </footer>
-  
+
 
 
 </body>
